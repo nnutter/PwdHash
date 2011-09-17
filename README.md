@@ -2,7 +2,7 @@ Introduction
 ------------
 PwdHash is an Objective-C implementation of the PwdHash algorithm for generating site-specific passwords using the site's domain and a private password.
 
-More info about the original PwdHash algorithm can be found at [https://www.pwdhash.com][ph].
+More info about the original PwdHash algorithm can be found at [pwdhash.com][ph].
 
 Getting Started
 ---------------

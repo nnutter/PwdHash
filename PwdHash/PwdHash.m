@@ -20,4 +20,13 @@
     return self;
 }
 
++ (NSString*)generate:(NSString*)password
+                  url:(NSString*)url
+{
+    NSLog(@"%@", password);
+    NSLog(@"%@", url);
+    
+    return [password stringByAppendingString:url];
+}
+
 @end

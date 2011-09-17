@@ -10,4 +10,7 @@
 
 @interface PwdHash : NSObject
 
++ (NSString*)generate:(NSString*)password
+                  url:(NSString*)url;
+
 @end

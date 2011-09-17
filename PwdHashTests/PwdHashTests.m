@@ -6,6 +6,7 @@
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
+#import "PwdHash.h"
 #import "PwdHashTests.h"
 
 @implementation PwdHashTests
@@ -24,9 +25,10 @@
     [super tearDown];
 }
 
-- (void)testExample
+- (void)testPwdHashGenerate
 {
-    STFail(@"Unit tests are not implemented yet in PwdHashTests");
+    NSString* hashedPassword = [PwdHash generate:@"test" url:@"google.com"];
+    STAssertNotNil(hashedPassword, @"%@", @"hashedPassword is nil");
 }
 
 @end

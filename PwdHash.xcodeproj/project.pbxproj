@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0877A4591424505A009D4229 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0877A4581424505A009D4229 /* Foundation.framework */; };
+		0877A45F1424505A009D4229 /* PwdHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 0877A45E1424505A009D4229 /* PwdHash.m */; };
+		0877A4671424505B009D4229 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0877A4661424505B009D4229 /* SenTestingKit.framework */; };
+		0877A4691424505B009D4229 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0877A4681424505B009D4229 /* UIKit.framework */; };
+		0877A46A1424505B009D4229 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0877A4581424505A009D4229 /* Foundation.framework */; };
+		0877A46C1424505B009D4229 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0877A46B1424505B009D4229 /* CoreGraphics.framework */; };
+		0877A46F1424505B009D4229 /* libPwdHash.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0877A4551424505A009D4229 /* libPwdHash.a */; };
+		0877A4751424505B009D4229 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0877A4731424505B009D4229 /* InfoPlist.strings */; };
+		0877A4781424505B009D4229 /* PwdHashTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0877A4771424505B009D4229 /* PwdHashTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0877A46D1424505B009D4229 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0877A44C1424505A009D4229 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0877A4541424505A009D4229;
+			remoteInfo = PwdHash;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0877A4551424505A009D4229 /* libPwdHash.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPwdHash.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0877A4581424505A009D4229 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0877A45C1424505A009D4229 /* PwdHash-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PwdHash-Prefix.pch"; sourceTree = "<group>"; };
+		0877A45D1424505A009D4229 /* PwdHash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PwdHash.h; sourceTree = "<group>"; };
+		0877A45E1424505A009D4229 /* PwdHash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PwdHash.m; sourceTree = "<group>"; };
+		0877A4651424505B009D4229 /* PwdHashTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PwdHashTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0877A4661424505B009D4229 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		0877A4681424505B009D4229 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		0877A46B1424505B009D4229 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		0877A4721424505B009D4229 /* PwdHashTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PwdHashTests-Info.plist"; sourceTree = "<group>"; };
+		0877A4741424505B009D4229 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0877A4761424505B009D4229 /* PwdHashTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PwdHashTests.h; sourceTree = "<group>"; };
+		0877A4771424505B009D4229 /* PwdHashTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PwdHashTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0877A4521424505A009D4229 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0877A4591424505A009D4229 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0877A4611424505B009D4229 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0877A4671424505B009D4229 /* SenTestingKit.framework in Frameworks */,
+				0877A4691424505B009D4229 /* UIKit.framework in Frameworks */,
+				0877A46A1424505B009D4229 /* Foundation.framework in Frameworks */,
+				0877A46C1424505B009D4229 /* CoreGraphics.framework in Frameworks */,
+				0877A46F1424505B009D4229 /* libPwdHash.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0877A44A1424505A009D4229 = {
+			isa = PBXGroup;
+			children = (
+				0877A45A1424505A009D4229 /* PwdHash */,
+				0877A4701424505B009D4229 /* PwdHashTests */,
+				0877A4571424505A009D4229 /* Frameworks */,
+				0877A4561424505A009D4229 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0877A4561424505A009D4229 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0877A4551424505A009D4229 /* libPwdHash.a */,
+				0877A4651424505B009D4229 /* PwdHashTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0877A4571424505A009D4229 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0877A4581424505A009D4229 /* Foundation.framework */,
+				0877A4661424505B009D4229 /* SenTestingKit.framework */,
+				0877A4681424505B009D4229 /* UIKit.framework */,
+				0877A46B1424505B009D4229 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0877A45A1424505A009D4229 /* PwdHash */ = {
+			isa = PBXGroup;
+			children = (
+				0877A45D1424505A009D4229 /* PwdHash.h */,
+				0877A45E1424505A009D4229 /* PwdHash.m */,
+				0877A45B1424505A009D4229 /* Supporting Files */,
+			);
+			path = PwdHash;
+			sourceTree = "<group>";
+		};
+		0877A45B1424505A009D4229 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0877A45C1424505A009D4229 /* PwdHash-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0877A4701424505B009D4229 /* PwdHashTests */ = {
+			isa = PBXGroup;
+			children = (
+				0877A4761424505B009D4229 /* PwdHashTests.h */,
+				0877A4771424505B009D4229 /* PwdHashTests.m */,
+				0877A4711424505B009D4229 /* Supporting Files */,
+			);
+			path = PwdHashTests;
+			sourceTree = "<group>";
+		};
+		0877A4711424505B009D4229 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0877A4721424505B009D4229 /* PwdHashTests-Info.plist */,
+				0877A4731424505B009D4229 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0877A4531424505A009D4229 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0877A4541424505A009D4229 /* PwdHash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0877A47B1424505B009D4229 /* Build configuration list for PBXNativeTarget "PwdHash" */;
+			buildPhases = (
+				0877A4511424505A009D4229 /* Sources */,
+				0877A4521424505A009D4229 /* Frameworks */,
+				0877A4531424505A009D4229 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PwdHash;
+			productName = PwdHash;
+			productReference = 0877A4551424505A009D4229 /* libPwdHash.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		0877A4641424505B009D4229 /* PwdHashTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0877A47E1424505B009D4229 /* Build configuration list for PBXNativeTarget "PwdHashTests" */;
+			buildPhases = (
+				0877A4601424505B009D4229 /* Sources */,
+				0877A4611424505B009D4229 /* Frameworks */,
+				0877A4621424505B009D4229 /* Resources */,
+				0877A4631424505B009D4229 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0877A46E1424505B009D4229 /* PBXTargetDependency */,
+			);
+			name = PwdHashTests;
+			productName = PwdHashTests;
+			productReference = 0877A4651424505B009D4229 /* PwdHashTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0877A44C1424505A009D4229 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 0877A44F1424505A009D4229 /* Build configuration list for PBXProject "PwdHash" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0877A44A1424505A009D4229;
+			productRefGroup = 0877A4561424505A009D4229 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0877A4541424505A009D4229 /* PwdHash */,
+				0877A4641424505B009D4229 /* PwdHashTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0877A4621424505B009D4229 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0877A4751424505B009D4229 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0877A4631424505B009D4229 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0877A4511424505A009D4229 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0877A45F1424505A009D4229 /* PwdHash.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0877A4601424505B009D4229 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0877A4781424505B009D4229 /* PwdHashTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0877A46E1424505B009D4229 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0877A4541424505A009D4229 /* PwdHash */;
+			targetProxy = 0877A46D1424505B009D4229 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0877A4731424505B009D4229 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0877A4741424505B009D4229 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0877A4791424505B009D4229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0877A47A1424505B009D4229 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0877A47C1424505B009D4229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/PwdHash.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PwdHash/PwdHash-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0877A47D1424505B009D4229 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/PwdHash.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PwdHash/PwdHash-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		0877A47F1424505B009D4229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PwdHash/PwdHash-Prefix.pch";
+				INFOPLIST_FILE = "PwdHashTests/PwdHashTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		0877A4801424505B009D4229 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PwdHash/PwdHash-Prefix.pch";
+				INFOPLIST_FILE = "PwdHashTests/PwdHashTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0877A44F1424505A009D4229 /* Build configuration list for PBXProject "PwdHash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0877A4791424505B009D4229 /* Debug */,
+				0877A47A1424505B009D4229 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0877A47B1424505B009D4229 /* Build configuration list for PBXNativeTarget "PwdHash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0877A47C1424505B009D4229 /* Debug */,
+				0877A47D1424505B009D4229 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0877A47E1424505B009D4229 /* Build configuration list for PBXNativeTarget "PwdHashTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0877A47F1424505B009D4229 /* Debug */,
+				0877A4801424505B009D4229 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0877A44C1424505A009D4229 /* Project object */;
+}

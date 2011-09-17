@@ -25,10 +25,31 @@
     [super tearDown];
 }
 
-- (void)testPwdHashGenerate
+- (void)testGetHashedPasswordWithPasswordAndURL
 {
-    NSString* hashedPassword = [PwdHash generate:@"test" url:@"google.com"];
-    STAssertNotNil(hashedPassword, @"%@", @"hashedPassword is nil");
+    NSString* hashedPassword;
+    
+    NSMutableArray* tuples = [[NSMutableArray alloc] initWithObjects:
+                              @"google.com", @"abcdefgh", @"Vxo4HErAvz",
+                              @"google.com", @"abcdefg1", @"pOW9YxFMp5",
+                              @"google.com", @"abcdefg!", @"r+XC9LUVHb",
+                              nil];
+    NSMutableIndexSet *indexSet = [NSMutableIndexSet indexSetWithIndex:0];
+    [indexSet addIndex:1];
+    [indexSet addIndex:2];
+    
+    while ([tuples count] > 0) {
+        NSString* url = [tuples objectAtIndex:0];
+        NSString* password = [tuples objectAtIndex:1];
+        NSString* correctPassword = [tuples objectAtIndex:2];
+        [tuples removeObjectsAtIndexes:indexSet];
+        
+        hashedPassword = [PwdHash getHashedPasswordWithPasswordAndURL:password url:url];
+        STAssertTrue([hashedPassword isEqualToString:correctPassword],
+                     @"hashedPassword = %@ for Password = %@ and URL = %@ is %@",
+                     hashedPassword, password, url, correctPassword);
+    }
+
 }
 
 @end
